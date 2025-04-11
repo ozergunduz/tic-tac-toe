@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.title{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#startButton{
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    border: solid 0px;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(184, 117, 36);
+}
+.chooseYourSignContainer{
+   border: solid 0px;
+   background-color: bisque;
+   border-radius: 5px;
+   height: 100px;
+   width: 180px;
+   padding: 5px 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   display: none;
+}
+
+.label{
+    font-size: 24px;
+}
+#X, #O {
+    cursor: pointer;
+    font-size: 24px;
+    background-color: rosybrown;
+    border-radius: 5px;
+  }
+
+
+.board {
+    width: 330px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #333;
+    overflow: hidden;
+    flex-direction: row;
+    display: none;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
